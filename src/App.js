@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { BackTop, Layout } from "antd";
 //APP COMPONENTS
 //STYLE & ICONS
-import "./App.less";
+import "antd/dist/antd.css";
 import { UpCircleOutlined } from "@ant-design/icons";
 import ProtectedRoute from "./components/Services/ProtectedRoute";
 import { Switch } from "react-router-dom";
